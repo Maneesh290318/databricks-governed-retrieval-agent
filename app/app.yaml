@@ -1,0 +1,10 @@
+command: ['streamlit', 'run', 'app.py']
+env:
+  - name: 'DATABRICKS_WAREHOUSE_ID'
+    value: 'YOUR_WAREHOUSE_ID'
+  - name: 'CATALOG_SCHEMA'
+    value: 'corrections_health_demo.curated'
+  - name: 'MODEL_NAME'
+    value: 'system.ai.meta-llama-3-3-70b-instruct'
+  - name: 'STREAMLIT_GATHER_USAGE_STATS'
+    value: 'false'
