@@ -6,6 +6,10 @@ This project was built to explore a question that matters in enterprise AI: **Ho
 
 **Stack:** Databricks · Delta Lake · Unity Catalog · AI Search / Vector Search · AI Gateway · Llama 3.3 70B Instruct · Streamlit · Python · SQL
 
+<p align="center">
+  <img src="assets/demo-preview.svg" alt="Corrections Health Operations Assistant demo preview" width="850"/>
+</p>
+
 ## Project Results
 
 | Result | Recorded project evaluation |
@@ -30,6 +34,13 @@ The project simulates that environment with four roles:
 - **Nurse** — medication and monitoring data without diagnosis codes or demographics.
 
 ## Architecture
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="Governed Retrieval Agent architecture" width="950"/>
+</p>
+
+<details>
+<summary>Text architecture</summary>
 
 ```text
                          User
@@ -63,6 +74,8 @@ The project simulates that environment with four roles:
                     Final answer
 ```
 
+</details>
+
 See `docs/architecture.md` for the design details.
 
 ## Why the Governance Design Matters
@@ -92,6 +105,9 @@ The tool loop is capped to prevent unbounded agent iterations.
 
 ```text
 databricks-governed-retrieval-agent/
+├── assets/
+│   ├── architecture.svg
+│   └── demo-preview.svg
 ├── app/
 │   ├── app.py
 │   ├── app.yaml
