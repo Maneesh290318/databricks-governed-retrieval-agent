@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="#f7f8fb"/>
+<style>.h{font:700 38px Arial,sans-serif;fill:#252936}.t{font:18px Arial,sans-serif;fill:#343a4a}.m{font:15px Arial,sans-serif;fill:#70798d}.btn{fill:white;stroke:#cfd5df;stroke-width:2;rx:10}.q{fill:#eef1f5;rx:12}.ans{fill:#fff;stroke:#e2e6ed;stroke-width:1;rx:12}</style>
+<rect x="210" y="55" width="780" height="540" fill="#fff" rx="18"/>
+<text x="285" y="125" class="h">Corrections Health Operations Assistant</text>
+<text x="285" y="170" class="m">Signed in as: Analyst</text>
+<rect x="285" y="195" width="120" height="44" class="btn"/><text x="345" y="223" text-anchor="middle" class="t">Switch role</text>
+<rect x="285" y="275" width="630" height="78" class="q"/><text x="320" y="307" class="m">USER</text><text x="320" y="335" class="t">What was the length of stay and number of lab procedures</text><text x="320" y="359" class="t">for encounter 2278392?</text>
+<rect x="285" y="390" width="630" height="92" class="ans"/><text x="320" y="422" class="m">ASSISTANT</text><text x="320" y="453" class="t">The length of stay was 1 day, with 41 lab procedures.</text>
+<rect x="285" y="520" width="630" height="48" class="btn"/><text x="310" y="551" class="m">Ask a question...</text>
+</svg>
